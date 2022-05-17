@@ -28,7 +28,7 @@ const Translate= ()=>{
         <div>
             <div className="ui form">
                 <div className="field">
-                    <label> Enter Text</label>
+                    <label> Enter Text</label> 
            <input value ={text} onChange= {(e) =>setText(e.target.value)}></input> 
            </div>
            </div>
